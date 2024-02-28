@@ -1,78 +1,10 @@
 {
-  "survey_name": "Outdoor Comfort - Heat Stress",
-  "survey_id": "OutdoorComfort_HeatStress",
+  "survey_name": "Malta - Heat Stress",
+  "survey_id": "Malta_HeatStress",
   "survey": [
     {
-      "question": "Are you on campus?",
-      "question_id": "q_general_location_area",
-      "response_options": [
-        {
-          "text": "Yes",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_general_location_change"
-        },
-        {
-          "text": "No",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_general_location_change"
-        }
-      ]
-    },
-    {
-      "question": "How long ago did you change your location?",
-      "question_id": "q_general_location_change",
-      "response_options": [
-        {
-          "text": "I did not change my location",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_general_location_envi"
-        },
-        {
-          "text": "Less than 5min ago",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_general_location_envi"
-        },
-        {
-          "text": "Less than 10min ago",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_general_location_envi"
-        },
-        {
-          "text": "Less than 15min ago",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_general_location_envi"
-        },
-        {
-          "text": "More than 15min ago",
-          "icon": "",
-          "icon_background_color": "#bb7011",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_general_location_envi"
-        }
-      ]
-    },
-    {
-      "question": "Are you currently indoor or outdoor?",
-      "question_id": "q_general_location_envi",
+      "question": "Are you currently indoors or outdoors?",
+      "question_id": "q_general_location",
       "response_options": [
         {
           "text": "Indoor",
@@ -80,7 +12,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_indoor_condition"
+          "next_question_id": "q_general_activity"
         },
         {
           "text": "Outdoor",
@@ -88,113 +20,21 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_out-activity"
+          "next_question_id": "q_general_activity"
         },
         {
-          "text": "Semi-Outdoor",
+          "text": "Semi-ourdoor",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_out-activity"
-        },
-        {
-          "text": "I am not sure",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_out-activity"
+          "next_question_id": "q_general_activity"
         }
       ]
     },
     {
-      "question": "How is your current environment conditioned?",
-      "question_id": "q_indoor_condition",
-      "response_options": [
-        {
-          "text": "Air conditioned",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_ind-activity"
-        },
-        {
-          "text": "Natural Ventilation",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_ind-activity"
-        },
-        {
-          "text": "Natural Ventilation + Fans",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_ind-activity"
-        },
-        {
-          "text": "Air conditioning + Fans",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_ind-activity"
-        }
-      ]
-    },
-    {
-      "question": "What was your main activity since the past 30mins?",
-      "question_id": "q_comfort_ind-activity",
-      "response_options": [
-        {
-          "text": "Sitting",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        },
-        {
-          "text": "Walking",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        },
-        {
-          "text": "Standing",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        },
-        {
-          "text": "Exercising",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        },
-        {
-          "text": "Manual Labor",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        }
-      ]
-    },
-    {
-      "question": "What was your main activity since the past 30mins?",
-      "question_id": "q_comfort_out-activity",
+      "question": "What were you doing in the past 30 minutes?",
+      "question_id": "q_general_activity",
       "response_options": [
         {
           "text": "Sitting",
@@ -229,9 +69,9 @@
           "next_question_id": "q_comfort_sensation"
         },
         {
-          "text": "Manual Labor",
+          "text": "Mannual Labor",
           "icon": "",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#bb7011",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_comfort_sensation"
@@ -239,108 +79,54 @@
       ]
     },
     {
-      "question": "What is your general thermal sensation?",
+      "question": "What is your thermal sensation?",
       "question_id": "q_comfort_sensation",
       "response_options": [
         {
-          "text": "hot",
+          "text": "Hot",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_behavioral"
+          "next_question_id": "q_comfort_heat_stress"
         },
         {
-          "text": "warm",
+          "text": "Warm",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_behavioral"
+          "next_question_id": "q_comfort_heat_stress"
         },
         {
-          "text": "slightly warm",
+          "text": "Slightly Warm",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_behavioral"
+          "next_question_id": "q_comfort_heat_stress"
         },
         {
-          "text": "neutral",
+          "text": "Neutral",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_behavioral"
+          "next_question_id": "q_comfort_heat_stress"
         },
         {
-          "text": "slightly cool",
+          "text": "Slightly Cool",
           "icon": "",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#bb7011",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
-        }
-      ]
-    },
-    {
-      "question": "Are you using anything to adjust yourself to the heat?",
-      "question_id": "q_comfort_behavioral",
-      "response_options": [
-        {
-          "text": "Mobile Fan",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatstress"
-        },
-        {
-          "text": "Umbrella",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatstress"
-        },
-        {
-          "text": "Wet Towel",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatstress"
-        },
-        {
-          "text": "Cold drink",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatstress"
-        },
-        {
-          "text": "Sun Protectors",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatstress"
-        },
-        {
-          "text": "Nothing",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatstress"
+          "next_question_id": "q_environment_wind"
         }
       ]
     },
     {
       "question": "Do you feel that your body is currently experiencing heat stress?",
-      "question_id": "q_comfort_heatstress",
+      "question_id": "q_comfort_heat_stress",
       "response_options": [
         {
           "text": "Yes",
@@ -348,7 +134,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatintensity"
+          "next_question_id": "q_comfort_level"
         },
         {
           "text": "No",
@@ -356,51 +142,51 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_environment_wind"
         }
       ]
     },
     {
-      "question": "How would you rate the level of heat stress you are currently experciencing?",
-      "question_id": "q_comfort_heatintensity",
+      "question": "How would you rate the level of heat stress you are currenly experiencing?",
+      "question_id": "q_comfort_level",
       "response_options": [
         {
-          "text": " weak",
+          "text": "Weak",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatsymptoms"
+          "next_question_id": "q_comfort_symptoms"
         },
         {
-          "text": "moderate",
+          "text": "Moderate",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatsymptoms"
+          "next_question_id": "q_comfort_symptoms"
         },
         {
-          "text": "strong",
+          "text": "Strong",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatsymptoms"
+          "next_question_id": "q_comfort_symptoms"
         },
         {
-          "text": "extremely strong",
+          "text": "Extremely Strong",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_heatsymptoms"
+          "next_question_id": "q_comfort_symptoms"
         }
       ]
     },
     {
-      "question": "Which of the symptoms is currently affecting you the most?",
-      "question_id": "q_comfort_heatsymptoms",
+      "question": "Which of the symptoms currently affecting you the most?",
+      "question_id": "q_comfort_symptoms",
       "response_options": [
         {
           "text": "Headache",
@@ -408,7 +194,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_adjust"
         },
         {
           "text": "Nausea",
@@ -416,7 +202,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_adjust"
         },
         {
           "text": "Dizziness",
@@ -424,7 +210,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_adjust"
         },
         {
           "text": "Weakness",
@@ -432,7 +218,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_adjust"
         },
         {
           "text": "Irritability",
@@ -440,15 +226,15 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_adjust"
         },
         {
-          "text": "Thirst",
+          "text": "Thrist",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_adjust"
         },
         {
           "text": "Heavy Sweating",
@@ -456,92 +242,138 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_adjust"
         },
         {
-          "text": "High body temperature",
+          "text": "High Body Temperature",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
-        }
+          "next_question_id": "q_comfort_adjust"
+        },
+      ]
+    },
+    {
+      "question": "Are you using anything to adjust yourself to the heat?",
+      "question_id": "q_comfort_adjust",
+      "response_options": [
+        {
+          "text": "Fan",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_wind"
+        },
+        {
+          "text": "Umbrella",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_wind"
+        },
+        {
+          "text": "Wet Towel",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_wind"
+        },
+        {
+          "text": "Cold Drink",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_wind"
+        },
+        {
+          "text": "Sun Protectors",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_wind"
+        },
+        {
+          "text": "None",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_wind"
+        },
       ]
     },
     {
       "question": "How do you feel about the wind at the moment?",
-      "question_id": "q_comfort_wind",
+      "question_id": "q_environment_wind",
       "response_options": [
         {
-          "text": "stale",
+          "text": "Stale",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_humidity"
+          "next_question_id": "q_environment_humidity"
         },
         {
-          "text": "neutral",
+          "text": "Neutral",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_humidity"
+          "next_question_id": "q_environment_humidity"
         },
         {
-          "text": "windy",
+          "text": "Windy",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_humidity"
+          "next_question_id": "q_environment_humidity"
         }
       ]
     },
     {
-      "question": "How do you feel about the air humidity at the moment?",
-      "question_id": "q_comfort_humidity",
+      "question": "How fo you feel about the air humidity art the moment?",
+      "question_id": "q_environment_humidity",
       "response_options": [
         {
-          "text": "humid",
+          "text": "Humid",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_sun_a"
+          "next_question_id": "q_environment_sun"
         },
         {
-          "text": "neutral",
+          "text": "Neutral",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_sun_a"
+          "next_question_id": "q_environment_sun"
         },
         {
-          "text": "dry",
+          "text": "Dry",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_sun_a"
+          "next_question_id": "q_environment_sun"
         }
       ]
     },
     {
-      "question": "Are you directly exposed to the sun?",
-      "question_id": "q_comfort_sun_a",
+      "question": "How fo you feel about the sun art the moment?",
+      "question_id": "q_environment_sun",
       "response_options": [
         {
-          "text": "Yes",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_sun_b"
-        },
-        {
-          "text": "No",
+          "text": "I am not exposed",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -549,47 +381,33 @@
           "next_question_id": "q_environment_shade"
         },
         {
-          "text": "The sun is not shining",
+          "text": "Weak",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
+          "next_question_id": "q_environment_change"
+        },
+        {
+          "text": "Neutral",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_change"
+        },
+        {
+          "text": "Strong",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_change"
         }
       ]
     },
     {
-      "question": "How do you feel about the sun at the moment?",
-      "question_id": "q_comfort_sun_b",
-      "response_options": [
-        {
-          "text": "weak",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        },
-        {
-          "text": "neutral",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        },
-        {
-          "text": "strong",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        }
-      ]
-    },
-    {
-      "question": "By what structures are you shaded?",
+      "question": "By what structure are you shaded?",
       "question_id": "q_environment_shade",
       "response_options": [
         {
@@ -598,37 +416,29 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
+          "next_question_id": "q_environment_change"
         },
         {
-          "text": "Vegetation",
+          "text": "Naturual elements",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
+          "next_question_id": "q_environment_change"
         },
         {
-          "text": "Shading Structures",
+          "text": "Shade structures",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
-        },
-        {
-          "text": "Other",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_preference"
+          "next_question_id": "q_environment_change"
         }
       ]
     },
     {
-      "question": "Would you like to change your environment?",
-      "question_id": "q_comfort_preference",
+      "question": "How would you like to change your environment?",
+      "question_id": "q_environment_change",
       "response_options": [
         {
           "text": "Cooler",
@@ -636,15 +446,15 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_insulation"
+          "next_question_id": "q_general_clothing_insulation"
         },
         {
-          "text": "No Change",
+          "text": "No change",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_insulation"
+          "next_question_id": "q_general_clothing_insulation"
         },
         {
           "text": "Warmer",
@@ -652,21 +462,29 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_insulation"
+          "next_question_id": "q_general_clothing_insulation"
         }
       ]
     },
     {
-      "question": "How would you describe your clothing's insulation?",
-      "question_id": "q_clothing_insulation",
+      "question": "Discribe your overall clothing level of insulation",
+      "question_id": "q_general_clothing_insulation",
       "response_options": [
+        {
+          "text": "Very light",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_clothing_cover"
+        },
         {
           "text": "Light",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_color"
+          "next_question_id": "q_general_clothing_cover"
         },
         {
           "text": "Medium",
@@ -674,7 +492,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_color"
+          "next_question_id": "q_general_clothing_cover"
         },
         {
           "text": "Heavy",
@@ -682,46 +500,54 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_color"
+          "next_question_id": "q_general_clothing_cover"
         }
       ]
     },
     {
-      "question": "Your outfit is overall very dark in colors?",
-      "question_id": "q_clothing_color",
+      "question": "How much is your clothing covering your skin?",
+      "question_id": "q_general_clothing_cover",
       "response_options": [
         {
-          "text": "Agree",
+          "text": "Not much",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_material"
+          "next_question_id": "q_general_clothing_color"
         },
         {
-          "text": "Neutral",
+          "text": "Slightly",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_material"
+          "next_question_id": "q_general_clothing_color"
         },
         {
-          "text": "Disagree",
+          "text": "A great amount",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_clothing_material"
+          "next_question_id": "q_general_clothing_color"
+        },
+        {
+          "text": "Almost all of it",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_clothing_color"
         }
       ]
     },
     {
-      "question": "Your outfit is out of very breathable material?",
-      "question_id": "q_clothing_material",
+      "question": "What is the overall color of your clothing?",
+      "question_id": "q_general_clothing_color",
       "response_options": [
         {
-          "text": "Agree",
+          "text": "Dark",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -729,7 +555,7 @@
           "next_question_id": ""
         },
         {
-          "text": "Neutral",
+          "text": "Light",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -737,7 +563,23 @@
           "next_question_id": ""
         },
         {
-          "text": "Disagree",
+          "text": "Equal light and dark",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Exercising",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Manual Labor",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
