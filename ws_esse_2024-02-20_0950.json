@@ -339,7 +339,7 @@
       ]
     },
     {
-      "question": "How fo you feel about the air humidity art the moment?",
+      "question": "How fo you feel about the air humidity at the moment?",
       "question_id": "q_environment_humidity",
       "response_options": [
         {
@@ -369,7 +369,7 @@
       ]
     },
     {
-      "question": "How fo you feel about the sun art the moment?",
+      "question": "How do you feel about the sun at the moment?",
       "question_id": "q_environment_sun",
       "response_options": [
         {
